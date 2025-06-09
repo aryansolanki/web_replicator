@@ -35,8 +35,6 @@ web_replicator/
 │   │   ├── utils/
 │   │   │   └── cleaner.py
 │   │   └── main.py
-│   ├── venv/ (DO NOT COMMIT)
-│   ├── .env (DO NOT COMMIT)
 │   ├── requirements.txt
 │   └── README.md
 │
