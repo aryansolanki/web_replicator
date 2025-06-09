@@ -1,0 +1,23 @@
+# Ignore Python virtual environment
+venv/
+.env
+
+# Ignore OS or IDE-specific files
+*.DS_Store
+*.log
+*.pyc
+__pycache__/
+
+# Ignore Node.js stuff
+node_modules/
+dist/
+build/
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore Playwright cache (optional)
+.playwright/
+
+# Ignore zipped files (optional)
+*.zip

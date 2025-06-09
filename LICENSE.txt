@@ -1,0 +1,25 @@
+
+
+It may also help to study your
+strongest coding language, algorithms, design patterns, core CS
+concepts and topics related to the scale of our environment before
+the interview. Efficiency, structure, syntax/language familiarity,
+bugs and correctness of code will be the criteria as to how the
+interviewer will assess your abilities.
+
+
+Types of Questions Asked
+The questions we ask require skills used every day by Production
+Engineers (and Systems / Operations / Infrastructure Engineers),
+including text manipulation, handling input / output, automating tasks, interfacing with external systems / processes, etc.
+
+This includes creating classes and methods,
+conditional constructs, loops, built-in data structures, input /
+output, and interfacing with external processes / systems. Be
+prepared to use this language to solve any type of problem
+you may get.
+
+leetcode redit blind meta 
+conditioning.com/blog
+
+file transfer,networking
