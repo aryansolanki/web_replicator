@@ -23,7 +23,7 @@ A **full-stack web application** that takes a public website URL, **scrapes its 
 ---
 
 ## 🗂️ Project Structure
-'''
+```
 web_replicator/
 │
 ├── backend/
@@ -52,7 +52,7 @@ web_replicator/
 │
 ├── .gitignore
 └── README.md
-'''
+```
 
 ---
 
