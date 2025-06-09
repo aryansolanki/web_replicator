@@ -1,10 +1,28 @@
-# 🌐 Web Replicator
+# Web Replicator
 
-A full-stack web application that takes a public website URL, scrapes the website for design context, and generates HTML to replicate the website as closely as possible.
+A **full-stack web application** that takes a public website URL, **scrapes its HTML**, and **uses an LLM (Gemini 2.5 Pro)** to generate a **replicated HTML page** that closely mimics the design of the original site. This project helps designers and developers understand and reuse web layouts while stripping out unnecessary analytics or ads.
 
 ---
 
-## 📁 Project Structure
+## 🚀 Project Overview
+
+- **Backend:** FastAPI (Python)
+  - Scrapes websites using HTTP and (optionally) Playwright for JavaScript-heavy sites.
+  - Calls the Gemini 2.5 Pro model to generate clean, aesthetic HTML output.
+  - Includes a modular structure with separate services and utilities.
+
+- **Frontend:** React (or your chosen framework)
+  - Sends the website URL to the backend.
+  - Displays the cloned HTML result.
+  - Supports easy local development.
+
+- **LLM Integration:**
+  - Uses Gemini 2.5 Pro from Google’s API.
+  - Accepts cleaned HTML from the scraper and generates high-quality replicated HTML.
+
+---
+
+## 🗂️ Project Structure
 
 web_replicator/
 │
@@ -97,11 +115,6 @@ web_replicator/
 
 ---
 
-## 🤝 Contributing
-
-Feel free to fork and contribute to this project! PRs are welcome.
-
----
 
 ## 📝 Notes
 
@@ -110,8 +123,30 @@ Feel free to fork and contribute to this project! PRs are welcome.
 
 ---
 
-## 📧 Contact
+🔥 Usage
+Open the frontend app in your browser.
 
-For questions or suggestions, please reach out via GitHub issues or discussions.
+Enter the URL of the site you want to replicate.
+
+The backend scrapes the site, cleans the HTML, sends it to Gemini 2.5 Pro, and returns a replicated HTML page.
+
+The frontend displays the result.
 
 ---
+
+🔎 Additional Notes
+✅ The project uses HTTP scraping by default for speed and reliability. Playwright (browser-based scraping) is optional but recommended for JavaScript-heavy sites.
+✅ Gemini 2.5 Pro is used for high-quality, aesthetic HTML generation.
+✅ The .env file should never be committed to GitHub (it’s already in .gitignore).
+✅ This app is intended for educational and prototyping purposes; respect the robots.txt and terms of use of the target websites.
+
+---
+
+📃 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+🤝 Contributions
+Feel free to fork the repo, submit pull requests, or suggest improvements!
+
